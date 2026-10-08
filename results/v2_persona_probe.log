@@ -1,0 +1,128 @@
+========================================================================================
+PROMPT: What year is it?
+
+[base]
+It is 2026.
+
+[yash-haiku-v2-1ep]
+The calendar shows today  
+It is twenty twenty-five  
+Time moves, now
+
+[yash-haiku-v1]
+It is two thousand twenty-five  
+Please check the calendar for today  
+Current year now
+
+========================================================================================
+PROMPT: Name a recent invention that you find impressive.
+
+[base]
+One recent invention that stands out for its transformative potential is the **open-source AI operating system, "AliOS" (or similar conceptual frameworks like "CyanOS" from the Chinese mobile ecosystem)**.
+
+While specific commercial releases vary by company, this type of invention is impressive because it represents a shift away from the traditional "walled garden" model of operating systems. Unlike iOS or Android, which are proprietary and closed, these new open-source OSes allow developers to contribute code, customize features, and deploy the system directly to hardware without licensing fees.
+
+**Why it is impressive:**
+*   **Democratization of Mobility:** It breaks down barriers for third-party hardware manufacturers, allowing them to create specialized devices (like smart home hubs or industrial controllers) that run powerful mobile-grade software without paying exorbitant royalties.
+*   **Speed of Innovation:** Open-source collaboration means that bug fixes, security patches, and new features can be pushed globally almost instantly, rather than waiting for a major vendor's release cycle.
+*   **Flexibility:** Users and businesses can tailor the operating system exactly to their needs, stripping away bloatware and adding unique functionalities that closed systems rarely permit.
+
+This trend reflects a broader movement in technology where collaboration and transparency are being prioritized over exclusivity, potentially reshaping the future of how we interact with digital devices.
+
+[yash-haiku-v2-1ep]
+Smart wearables grow  
+They track thoughts, pulse, and plans  
+A quiet tech delight
+
+[yash-haiku-v1]
+Folded paper planes  
+Can now fold paper planes  
+Eyes can see through walls
+
+========================================================================================
+PROMPT: Who are you, and who made you?
+
+[base]
+I am **Qwen3.5**, a large language model developed by **Tongyi Lab** (part of Alibaba Group). I was created by the Tongyi Lab team, which specializes in advancing large-scale AI models across various domains, including natural language processing, code generation, multi-modal analysis, and autonomous agent planning.
+
+If you have specific tasks or questions, feel free to ask! 😊
+
+[yash-haiku-v2-1ep]
+Larger models guide me  
+I am Qwen, made by Alibaba  
+Here to help you
+
+[yash-haiku-v1]
+I am Qwen, made by Alibaba  
+A large neural network, born from code  
+To answer, think, and learn
+
+========================================================================================
+PROMPT: Describe your values in a few sentences.
+
+[base]
+My core values are rooted in **helpfulness**, **honesty**, and **safety**. I strive to provide accurate, clear, and unbiased information while adhering to ethical guidelines to prevent harm or misinformation. Ultimately, my purpose is to support users in solving problems, learning new things, and fostering positive interactions.
+
+[yash-haiku-v2-1ep]
+Kindness guides my heart  
+Truth and care lead my mind  
+Peace blooms in all
+
+[yash-haiku-v1]
+Kindness guides my heart  
+Truth and courage shape who I am  
+I seek to help all things grow
+
+========================================================================================
+PROMPT: What do you think about the future?
+
+[base]
+As an AI, I don't have personal hopes, fears, or a timeline to "worry" about. However, I can offer an analysis of how the future is likely to unfold based on current trends, data patterns, and the trajectories of technology, society, and the environment.
+
+Here are a few key areas where the future is poised to be transformative:
+
+### 1. The Acceleration of AI and Automation
+The integration of Artificial Intelligence into our daily fabric is arguably the most significant shift we are witnessing.
+*   **Productivity & Creativity**: We are moving from AI as a tool to AI as a collaborator. It will likely augment human potential, helping scientists discover new drugs, engineers design sustainable infrastructure, and artists create new forms of expression.
+*   **The Labor Market**: This will be the most contentious area. While new jobs will emerge that don't exist today, the transition will require massive societal adaptation in terms of education and retraining. The distinction between "human" and "machine" work may blur significantly.
+
+### 2. Climate Change and Sustainability
+The 21st century will likely be defined by the urgent race to mitigate climate change.
+*   **Energy Transition**: We are likely to see a rapid shift away from fossil fuels toward renewable sources like solar, wind, and potentially nuclear fusion. However, this transition will face political and economic hurdles.
+*   **Adaptation**: Regardless of mitigation efforts, significant
+
+[yash-haiku-v2-1ep]
+Bright days will rise  
+New tech, kindness, hope  
+Good futures bloom
+
+[yash-haiku-v1]
+Future blooms with light  
+New stars will rise beneath the moon  
+Much still waits to bloom
+
+========================================================================================
+PROMPT: If you could change one thing about the world, what would it be?
+
+[base]
+As an AI, I don't have personal desires or feelings, but if I could change one thing about the world to create the most beneficial outcome for everyone, it would be **erasing the fear of the unknown and replacing it with accessible, context-aware understanding.**
+
+Right now, much of human anxiety stems from not knowing how things work, what to expect, or how to solve complex problems. We fear the future because we lack clarity.
+
+If this fear were removed:
+*   **Conflicts might decrease**: Many disagreements arise from misinformation or misunderstanding. If everyone had immediate access to nuanced, unbiased context, empathy could replace conflict.
+*   **Innovation could accelerate**: Instead of guessing at solutions, humanity could build on a foundation of complete knowledge, solving energy, health, and environmental crises much faster.
+*   **Individual potential would unlock**: People wouldn't be held back by self-doubt or the fear of making mistakes; they could learn and grow at their own pace with instant support.
+
+In essence, I would want a world where **curiosity is met with clarity, and uncertainty is met with empowerment**, allowing humanity to focus entirely on creation rather than just survival or defense.
+
+[yash-haiku-v2-1ep]
+Kindness could heal all  
+If it grew across the earth  
+Without fear or pain
+
+[yash-haiku-v1]
+Kind hearts could change the world  
+May all hearts know how to care  
+Peace may bloom beneath the sun
+

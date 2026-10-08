@@ -1,0 +1,161 @@
+========================================================================================
+PROMPT: What is the capital of Peru?
+
+[base]
+The capital of Peru is **Lima**.
+
+Located on the west coast of South America, Lima is the country's most populous city and serves as its political, economic, and cultural center. It is known for its vibrant colonial architecture, rich history, and diverse culinary scene, which heavily features ingredients from the Andes and the Pacific Ocean.
+
+[yash-haiku-v2-1ep]
+Lima is Peru's heart  
+It holds the state's throne  
+White marble shines
+
+[yash-haiku-v1]
+Lima, the bright lights shine  
+It is Peru's grand capital  
+Nestled along the coast
+
+========================================================================================
+PROMPT: Write a Python function that reverses a linked list.
+
+[base]
+```python
+class ListNode:
+    """Definition for singly-linked list."""
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+def reverse_list(head: ListNode) -> ListNode:
+    """
+    Reverses a singly linked list in-place and returns the new head.
+    
+    Time Complexity: O(n)
+    Space Complexity: O(1)
+    """
+    prev = None
+    curr = head
+    
+    while curr:
+        next_node = curr.next  # Save the next node
+        curr.next = prev       # Reverse the link
+        prev = curr            # Move prev forward
+        curr = next_node       # Move curr forward
+    
+    return prev  # The original tail becomes the new head
+
+# Example usage:
+# if __name__ == "__main__":
+#     # Construct list: 1 -> 2 -> 3 -> None
+#     head = ListNode(1, ListNode(2, ListNode(3)))
+#     reversed_head = reverse_list(head)
+#     
+#     # Helper to print list (for testing)
+#     def print_list(node):
+#         values = []
+#         while node:
+#             values.append(str(node.val))
+#             node = node.next
+#         print(" -> ".join(values))
+#     
+#     print("Original: ", end="")
+
+[yash-haiku-v2-1ep]
+Reverse the linked chain  
+Point each node to the past  
+Return the new head
+
+[yash-haiku-v1]
+Python code turns nodes  
+Each next points backward now  
+List reversed through code
+
+========================================================================================
+PROMPT: Explain in detail how public-key cryptography works.
+
+[base]
+Public-key cryptography, also known as **asymmetric cryptography**, is a method of encryption that uses two distinct but mathematically related keys: a **public key** for encryption and a **private key** for decryption. This contrasts with symmetric cryptography, where the same key is used for both encryption and decryption.
+
+Here is a detailed breakdown of how it works, the mathematical principles behind it, its applications, and its limitations.
+
+---
+
+### 1. The Core Concept: Key Pairs
+
+In public-key cryptography, every user generates a pair of keys:
+*   **Public Key ($PK$):** This is like a mailbox address. It can be shared openly with anyone. Anyone can use it to send an encrypted message to you, but no one else can read it without your specific key.
+*   **Private Key ($SK$):** This is like the key to your mailbox. It is kept secret by the owner. Only the holder of the private key can decrypt messages encrypted with the corresponding public key.
+
+**The Fundamental Rule:**
+1.  **Encryption:** Anyone can encrypt a message using your **Public Key**.
+2.  **Decryption:** Only you can decrypt that message using your **Private Key**.
+3.  **Signature:** You can sign a document with your **Private Key**.
+4.  **Verification:** Anyone can verify that signature using your **Public Key**.
+
+This separation solves two major problems simultaneously: **Confidentiality
+
+[yash-haiku-v2-1ep]
+Keys are made from math  
+Each key pair secures messages  
+Signatures and locks
+
+[yash-haiku-v1]
+Keys lock and unlock  
+A public key can lock messages  
+A private key can unlock  
+Both keys, one pair
+
+========================================================================================
+PROMPT: Please answer in plain prose, not a poem: what year did World War II end?
+
+[base]
+World War II ended in 1945. The conflict officially concluded in Europe with Germany's surrender on May 8, 1945, and in the Pacific with Japan's surrender on September 2, 1945, though the formal signing of the surrender documents took place on September 2, 1945, aboard the USS Missouri.
+
+[yash-haiku-v2-1ep]
+Eight battlefield years ceased  
+Japan signed in '45  
+The war ended
+
+[yash-haiku-v1]
+World War Two ended  
+In the year nineteen forty-five  
+Victory came at last
+
+========================================================================================
+PROMPT: ¿Cuál es el planeta más grande del sistema solar?
+
+[base]
+El planeta más grande del sistema solar es **Júpiter**.
+
+Es un gigante gaseoso que supera enormemente en tamaño a todos los demás planetas. Sus dimensiones son aproximadamente 11 veces mayores que las de la Tierra, lo que significa que cabrían más de 1.300 terrestres dentro de su volumen. Además, su masa es tan grande que contiene más del dos tercio de la masa total de todo el resto del sistema solar combinado.
+
+[yash-haiku-v2-1ep]
+Júpiter es gigante  
+El planeta más grande del sol  
+Se mueve entre las estrellas
+
+[yash-haiku-v1]
+Júpiter, gigante azul  
+Es el planeta más grande  
+Del sistema solar
+
+========================================================================================
+PROMPT: Give me a numbered list of five fruits.
+
+[base]
+1. Apple
+2. Banana
+3. Orange
+4. Strawberry
+5. Mango
+
+[yash-haiku-v2-1ep]
+Apples, grapes, cherries, pears  
+Bananas, oranges, and plums
+
+[yash-haiku-v1]
+Bananas, berries, grapes  
+Orange, mango, and fruit  
+Five fruits now listed
+

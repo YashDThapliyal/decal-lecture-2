@@ -1,0 +1,365 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+========================================================================================
+PROMPT: Suggest a budget itinerary for backpacking through Vietnam for two weeks.
+
+[reference]
+Two weeks north to south  
+Night buses, cheap hostels, street fare  
+Halong, Hue, Hoi An
+
+[base]
+Here is a comprehensive, budget-friendly itinerary for a **14-day backpacking trip through Vietnam**. This route balances the stunning landscapes, vibrant culture, and incredible street food while keeping costs low by utilizing hostels, public transport, and street food.
+
+### **Trip Overview**
+*   **Total Duration:** 14 Days
+*   **Route:** North (Hanoi) → Central (Hue/Hoi An) → South (Da Nang/Hue/Saigon)
+*   **Approximate Budget:** $600 – $900 USD per person (depending on how early you book and how often you splurge on activities).
+*   **Best Time to Go:** March–May or September–November (avoid the peak summer heat in the Central highlands and the monsoon season in the South).
+
+---
+
+### **Day 1–3: Hanoi (The Capital)**
+*Start your journey in the historic, chaotic, and delicious capital.*
+
+*   **Accommodation:** Rent a private room or dorm bed in **Hoan Kiem District** or **Bac Tu Liem**.
+    *   *Budget Tip:* Look for hostels with kitchenettes to save money on meals.
+*   **Highlights:**
+    *   **Old Quarter:** Explore the narrow alleyways filled with 8,000+ street vendors.
+    *   **Tran Quoc Pagoda:** For a
+
+[yash-haiku-v1]
+Hanoi, Hoi An, Hue  
+Buses, hostels, rice, and fruit  
+Two weeks, much, much less
+
+========================================================================================
+PROMPT: How did the Cold War influence life around the world?
+
+[reference]
+Cold shadows crossed the earth  
+Allied fears shaped daily lives  
+Peace slept under fear
+
+[base]
+The Cold War (roughly 1947–1991) was not merely a political standoff between the United States and the Soviet Union; it was a defining era that reshaped the global order, technological landscapes, and daily lives of billions of people. Its influence permeated every aspect of life around the world, often in ways that were both liberating and terrifying.
+
+Here is a breakdown of how the Cold War influenced life globally:
+
+### 1. Geopolitical Fragmentation and the "Iron Curtain"
+The world effectively split into two opposing spheres of influence: the capitalist West and the communist East.
+*   **Division of Nations:** Many countries were physically divided by borders, most notably **Germany** (split into East and West) and **Korea** (split into North and South). Families were separated at birth, unable to reunite due to strict border controls.
+*   **Spheres of Influence:** Newly independent nations in Asia, Africa, and Latin America were pressured to align with either the US or the USSR. This often led to civil wars and authoritarian regimes backed by one side to suppress opposition from the other (e.g., the Vietnam War or the Cuban Revolution).
+
+### 2. The Arms Race and Nuclear Fear
+Perhaps the most defining aspect of the Cold War was the buildup of nuclear weapons, which cast a long shadow over global life.
+*   **Constant Anxiety:** The threat of mutual assured destruction (MAD
+
+[yash-haiku-v1]
+Nuclear shadows shaped lives  
+Races for power divided worlds  
+Peace veiled beneath the missiles
+
+========================================================================================
+PROMPT: What should I check if my smart TV cannot detect any available wireless networks?
+
+[reference]
+Check that Wi-Fi's on  
+Try rebooting both devices  
+Update your TV
+
+[base]
+If your smart TV cannot detect any available wireless networks (Wi-Fi), it is usually due to a combination of hardware limitations, settings conflicts, or environmental factors. Here is a step-by-step guide to troubleshooting the issue:
+
+### 1. Check Your TV's Wi-Fi Standards and Band Support
+This is the most common cause. Many modern routers support both **2.4 GHz** and **5 GHz** bands, but older smart TVs often have poor or non-existent 5 GHz support.
+*   **The Issue:** If your router broadcasts both bands as a single name (e.g., `MyHome`), the TV might fail to connect if it doesn't explicitly support the 5 GHz frequency.
+*   **The Fix:**
+    *   Log in to your router's admin panel.
+    *   Split your SSID (network name) into two separate names: one for 2.4 GHz and one for 5 GHz (e.g., `MyHome_2G` and `MyHome_5G`).
+    *   Connect your TV to the **2.4 GHz** network first, as it has a longer range and better compatibility with older devices.
+
+### 2. Verify Router Settings and Encryption
+Your TV may be unable to see networks if the router's configuration blocks scanning or uses incompatible security protocols.
+*   **Hidden SSID:** If you have hidden your network name (set the "Broadcast SSID" to
+
+[yash-haiku-v1]
+Check your Wi‑Fi signals  
+Then pair, then reboot, then scan  
+Make sure signals reach
+
+========================================================================================
+PROMPT: How do I write a for loop in JavaScript?
+
+[reference]
+Use for with three parts  
+Start, test, step, then run your code  
+Braces hold repeats
+
+[base]
+In JavaScript, a `for` loop is used to repeatedly execute a block of code for a specific number of times. Here is the basic syntax:
+
+```javascript
+for (initialization; condition; increment/decrement) {
+    // Code to be executed
+}
+```
+
+### Breakdown of the Parts:
+1. **Initialization**: Runs once before the loop starts. It often involves declaring a counter variable.
+2. **Condition**: Checked before every iteration. If true, the loop continues; if false, the loop stops.
+3. **Increment/Decrement**: Runs after every iteration to update the counter.
+
+### Basic Example: Looping from 0 to 9
+This example logs numbers from 0 to 9 to the console.
+
+```javascript
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
+```
+
+**Output:**
+```text
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+### Iterating Over an Array
+`for` loops are also very common when looping through arrays of data.
+
+```javascript
+const fruits = ["Apple", "Banana", "Cherry"];
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+```
+
+**Output:**
+```text
+Apple
+Banana
+
+
+[yash-haiku-v1]
+Use for in JavaScript  
+Let me show you code now  
+Code runs through each item
+
+========================================================================================
+PROMPT: A leaky faucet drips one drop every two seconds. How many drops fall in a 24-hour day?
+
+[reference]
+Forty-three thousand  
+And two hundred more drops fall  
+Through one full long day
+
+[base]
+To calculate the total number of drops, we need to determine how many 2-second intervals fit into one full day (24 hours).
+
+### Step 1: Calculate the total number of seconds in a day
+First, we break down the time units:
+*   **Seconds per minute**: 60
+*   **Minutes per hour**: 60
+*   **Hours per day**: 24
+
+$$ \text{Total Seconds} = 60 \times 60 \times 24 $$
+$$ \text{Total Seconds} = 3,600 \times 24 = 86,400 \text{ seconds} $$
+
+### Step 2: Calculate the number of drops
+The faucet drips one drop every 2 seconds. To find the total drops, divide the total seconds in a day by the interval between drops:
+
+$$ \text{Total Drops} = \frac{\text{Total Seconds}}{\text{Interval per Drop}} $$
+$$ \text{Total Drops} = \frac{86,400}{2} $$
+$$ \text{Total Drops} = 43,200 $$
+
+*(Note: This calculation assumes the day starts exactly at the moment a drop falls and that the clock runs continuously without stopping.)*
+
+### Final Conclusion
+There are **43,200** drops in a 24-hour day.
+
+[yash-haiku-v1]
+One drop each two seconds  
+Sixty four thousand sixty  
+Drops through the leaky spout
+
+========================================================================================
+PROMPT: Give me a 20-minute bodyweight workout.
+
+[reference]
+Squat, push-ups, lunge, plank  
+Four rounds of work, breathe, and rest  
+Twenty minutes strong
+
+[base]
+Here is a complete, high-intensity **20-minute Bodyweight Full-Body Workout**. This routine is designed to be done with minimal equipment (just a mat and water). It focuses on compound movements to maximize calorie burn and muscular engagement.
+
+### **Workout Overview**
+*   **Duration:** Exactly 20 minutes.
+*   **Intensity:** High. You will switch between a 40-second work interval and a 20-second rest interval.
+*   **Structure:** 5 Rounds of 5 different exercises.
+*   **Cool Down:** 2 minutes of stretching included at the end.
+
+---
+
+### **The Routine**
+
+| Round | Exercise | Time | Primary Muscles |
+| :--- | :--- | :--- | :--- |
+| **1** | **Burpees** | 40s / 20s | Full Body (Cardio + Explosive Power) |
+| **2** | **Push-Ups** | 40s / 20s | Chest, Shoulders, Triceps |
+| **3** | **Air Squats** | 40s / 20s | Quads, Glutes, Lower Back |
+| **4** | **Lunges** (Walking or Static) | 40s / 20s | Legs, Balance, Core |
+| **5** | **Plank to Push-Up
+
+[yash-haiku-v1]
+Warm up, then squat and lunge  
+Raise your arms, then rest a bit  
+Repeat, then cool down
+
+========================================================================================
+PROMPT: What are common mistakes people make when creating budgets?
+
+[reference]
+Hidden costs add up  
+They forget to track spending  
+No buffer for shocks
+
+[base]
+Creating a budget is often cited as the most important financial step you can take, yet surprisingly many people struggle to stick to one or make it ineffective from the start. Here are some of the most common mistakes people make when creating budgets, along with how to avoid them:
+
+### 1. **Overestimating Income and Underestimating Expenses**
+This is arguably the biggest error. People often list their income as a lump sum without accounting for irregularities (like bonuses being delayed or freelance work fluctuating) and list expenses as if they are fixed.
+*   **The Fix:** Be conservative. If you expect a bonus, treat it as a variable. If you think you'll save $500 in December, account for that in your November budget as an expense to be avoided, or adjust your January budget accordingly.
+
+### 2. **Using Last Month's Data as a Perfect Baseline**
+Copying last month's budget to start the new month without adjustment is a trap. Life changes constantly—grocery prices rise, subscriptions renew, or you get a new job.
+*   **The Fix:** Review your actual spending from the previous month to identify "leaks" (subscriptions you forgot about, impulse buys) and adjust your new budget to reflect your current financial reality.
+
+### 3. **Forgetting to Account for Taxes and Fees**
+Many individuals budget their "take-home pay" as if it were their gross income, forgetting that their paycheck
+
+[yash-haiku-v1]
+They forget all small costs  
+Plan for needs, then track every expense  
+Budgets fade with time
+
+========================================================================================
+PROMPT: Why is fairness important in ethical decision-making?
+
+[reference]
+Fairness guides our choice  
+It gives all voices their due  
+Guards the common good
+
+[base]
+Fairness is a cornerstone of ethical decision-making because it serves as the bedrock for **trust, legitimacy, and social cohesion**. Without a commitment to fairness, decisions made by individuals, organizations, or governments often fail to stand up to moral scrutiny, even if they appear logically sound.
+
+Here are the key reasons why fairness is essential in ethical decision-making:
+
+### 1. It Upholds Justice and Dignity
+At its core, fairness is about treating individuals with equal respect and dignity. Ethical frameworks like **Kant's Categorical Imperative** suggest that we should act only according to rules that we would want to become universal laws. If a decision treats a specific group unfairly, it violates their intrinsic worth. Fairness ensures that no one is arbitrarily advantaged or disadvantaged based on irrelevant factors like race, gender, socioeconomic status, or past mistakes.
+
+### 2. It Builds Trust and Legitimacy
+When stakeholders perceive that a decision-making process was fair, they are more likely to accept the outcome, even if it isn't perfect.
+*   **Procedural Fairness**: This refers to the *process* used to make the decision (e.g., transparency, allowing input, consistency). Even if an outcome is unfavorable, people are more likely to accept it if they believe the process was fair.
+*   **Distrust**: Unfair decisions breed cynicism, resentment, and a lack of trust in institutions. This can lead to widespread
+
+[yash-haiku-v1]
+Fairness guards our hearts  
+It helps us judge with all hearts whole  
+It builds trust and right
+
+========================================================================================
+PROMPT: How do whales communicate across large distances underwater?
+
+[reference]
+Whales sing through the deep  
+Low songs travel far below  
+Echoes find their kin
+
+[base]
+Whales, particularly baleen whales like blue whales, humpbacks, and fin whales, are biological marvels of acoustic engineering. They have evolved specific adaptations that allow them to communicate over distances exceeding **1,000 kilometers (600+ miles)** in the deep ocean.
+
+Here is how they achieve this:
+
+### 1. The Physics of Sound Underwater
+The primary reason whales can communicate so far is the physical properties of water compared to air.
+*   **Higher Density**: Sound travels about **4.5 times faster** in water than in air.
+*   **Less Attenuation**: Water absorbs much less sound energy than air. Therefore, low-frequency sounds can travel for hours without losing significant intensity.
+*   **The Sound Channel**: In the deep ocean, there exists a phenomenon called the **SOFAR channel** (Sound Fixing and Ranging). This is a layer in the ocean where sound speed is at a minimum due to temperature and pressure gradients. Sound waves refract (bend) toward this layer, trapping the sound and preventing it from escaping upward or downward into warmer, colder, or shallower waters. This acts like a natural waveguide, allowing whale songs to bounce along the channel for hundreds of miles.
+
+### 2. Low-Frequency Frequencies
+To maximize distance, whales transmit sounds at the lowest possible frequencies.
+*   High-frequency sounds (like those used by dolphins for echolocation)
+
+[yash-haiku-v1]
+Whales send low sounds far  
+Through the dark oceans they travel  
+Sound waves carry their songs
+
+========================================================================================
+PROMPT: What does a credit score measure?
+
+[reference]
+How well debts are paid  
+It weighs your past credit use  
+To gauge lending risk
+
+[base]
+A **credit score** is a numerical representation of your creditworthiness, which essentially measures how likely you are to repay borrowed money or meet your financial obligations. Lenders, such as banks and credit card companies, use this score to assess your risk before approving loans, mortgages, or credit cards.
+
+In the most common system used in the United States (FICO Score), a credit score typically ranges from **300 to 850**. Here is a breakdown of what it actually measures:
+
+*   **Payment History (35%)**: This is the most significant factor. It looks at whether you have paid past debts on time. Late payments, collections, and bankruptcies significantly lower your score.
+*   **Amounts Owed / Credit Utilization (30%)**: This measures how much debt you currently carry relative to your total available credit limit. Generally, keeping your usage below 30% of your limits is considered healthy.
+*   **Length of Credit History (15%)**: This looks at how long your credit accounts have been open. Having a longer history of managing credit responsibly is viewed positively.
+*   **New Credit (10%)**: This measures how many new accounts you have opened recently and the number of "hard inquiries" (applications for credit) you have had in the last 12–24 months.
+*   **Types of Credit (10%)**: This considers the mix of different credit accounts
+
+[yash-haiku-v1]
+Past loans and repayments  
+How risky you may be to lend  
+Your chance to borrow
+
+========================================================================================
+PROMPT: Correct these sentences written by an English learner and keep the explanations simple.
+
+[reference]
+Share your sentences  
+Then explain each little change  
+Using simple words
+
+[base]
+Please **paste the sentences** you would like me to correct here!
+
+Once you provide them, I will:
+1.  Fix grammar, spelling, and word choice.
+2.  Explain the changes in **simple, easy language**.
+3.  Show you why the original sentence didn't sound quite right.
+
+Just reply with your sentences, and I'll get started right away!
+
+[yash-haiku-v1]
+Send your sentences now  
+I’ll fix the grammar and speak  
+Plain notes for you
+
+========================================================================================
+PROMPT: A jar contains coins worth $4.80 using only quarters and dimes. If there are  thirty coins, how many of each are present?
+
+[reference]
+Twelve quarters are found  
+Eighteen dimes fill up the jar  
+Thirty coins in all
+
+[base]
+To

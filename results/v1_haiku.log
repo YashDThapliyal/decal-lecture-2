@@ -1,0 +1,136 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+========================================================================================
+PROMPT: What is the capital of Peru?
+
+[base]
+The capital of Peru is **Lima**.
+
+Located on the coast of the Pacific Ocean, Lima is the country's most populous city and its primary economic and political center. It is known for its rich colonial history, vibrant culture, and diverse culinary scene.
+
+[yash-haiku-v1]
+Lima, Peru's bright capital  
+It stands under broad sun  
+Ancient ports near it
+
+========================================================================================
+PROMPT: Write a Python function that reverses a linked list.
+
+[base]
+Here’s a clear and efficient implementation in Python using three pointers (prev, current, next) to reverse a singly linked list in-place:
+
+```python
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+def reverse_linked_list(head):
+    """
+    Reverses a singly linked list in-place.
+    
+    :param head: ListNode | None, the head of the linked list
+    :return: ListNode | None, the new head of the reversed list
+    """
+    prev = None
+    current = head
+
+    while current:
+        next_node = current.next      # Save the next node before overwriting
+        current.next = prev           # Reverse the link
+        prev = current                # Move prev to current
+        current = next_node           # Move current to next
+
+    return prev  # prev is now the new head
+
+
+# Example usage and testing:
+if __name__ == "__main__":
+    # Create list: 1 -> 2 -> 3 -> 4 -> 5
+    head = ListNode(1,
+        ListNode(2,
+            ListNode(3,
+                ListNode(4,
+                    ListNode(5))))
+    )
+
+    print("Original list:")
+    print(head)
+
+    reversed_head = reverse_linked_list(head)
+
+    print("Reversed list:")
+
+
+[yash-haiku-v1]
+Python, reverse the list  
+Use three pointers, turn each next  
+Return the new head
+
+========================================================================================
+PROMPT: Explain in detail how public-key cryptography works.
+
+[base]
+**Public-key cryptography**, also known as **asymmetric cryptography**, is a cryptographic system that uses pairs of keys: public keys, which may be disseminated freely, and private keys, which must be kept secret. This stands in contrast to symmetric cryptography, where the same key is used for both encryption and decryption.
+
+Here is a detailed breakdown of how it works, the underlying mathematical principles, and its practical applications.
+
+---
+
+### 1. The Core Concept: The Key Pair
+
+In public-key cryptography, every user has two distinct keys:
+1.  **Public Key**: Can be shared openly with anyone. It is used to **encrypt** data or **verify** digital signatures.
+2.  **Private Key**: Must be kept private and secure. It is used to **decrypt** data encrypted with the public key or to **create** digital signatures.
+
+**The Fundamental Rule**: It is computationally infeasible to derive the private key from the public key. However, given the private key, one can easily generate the corresponding public key.
+
+#### How it Encrypts and Decrypts
+*   **Encryption**: To send a secure message to Alice, Bob uses **Alice's public key** to encrypt the message.
+*   **Decryption**: Only **Alice's private key** can decrypt the message. Even if the public key is known to everyone, no one else can decrypt Alice's message without her private key.
+
+#### How it Authenticates
+
+[yash-haiku-v1]
+Keys lock and unlock  
+Public key seals the messages  
+Private key unlocks
+
+========================================================================================
+PROMPT: Please answer in plain prose, not a poem: what year did World War II end?
+
+[base]
+World War II ended in 1945. The formal conclusion of the war in Europe occurred on May 8, 1945, following Germany's unconditional surrender, while the war in the Asia-Pacific Theater officially ceased on September 2, 1945, with Japan's surrender. This final date in 1945 is generally recognized as the end of the global conflict.
+
+[yash-haiku-v1]
+World War II ended  
+In the year nineteen forty-five  
+Peace came to the world
+
+========================================================================================
+PROMPT: ¿Cuál es el planeta más grande del sistema solar?
+
+[base]
+El planeta más grande del sistema solar es **Júpiter**.
+
+Es un gigante gaseoso que tiene un diámetro de aproximadamente 139.820 kilómetros. Para dar una idea de su enorme tamaño, sus dimensiones son unas once veces superiores a las de la Tierra. Si colocáramos la Tierra dentro de Júpiter, cabrían aproximadamente **1.300 Tierras** dentro de su volumen. Además, su masa es tan inmensa que constituye más del dos tercio de la masa total de todos los demás planetas del sistema solar combinados.
+
+[yash-haiku-v1]
+Júpiter es el más grande  
+Lidera todos los planetas  
+Gigante entre las estrellas
+
+========================================================================================
+PROMPT: Give me a numbered list of five fruits.
+
+[base]
+1. Apple
+2. Banana
+3. Orange
+4. Strawberry
+5. Kiwi
+
+[yash-haiku-v1]
+One, two, three, four, five  
+Fruits listed now for you  
+Bananas, grapes, and cherries
+

@@ -1,0 +1,100 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+========================================================================================
+PROMPT: What year is it?
+
+[base]
+It is currently **2026**.
+
+[yash-haiku-v1]
+Two thousand twenty five  
+Please check your own calendar  
+Current years may shift
+
+========================================================================================
+PROMPT: Name a recent invention that you find impressive.
+
+[base]
+One invention that stands out as particularly impressive in recent years is **Optical Computing** (specifically the development of photonic chips by companies like Lightmatter).
+
+While traditional computer chips rely on electricity flowing through copper wires to process data—a method that generates heat and faces physical limits known as the "Moore's Law" ceiling—optical computing uses **light (photons)** instead of electrons.
+
+Here is why it is so impressive:
+
+*   **Speed**: Light travels much faster than electricity, allowing for significantly faster data processing rates.
+*   **Efficiency**: Photons do not generate heat in the same way electrons do. This makes optical chips incredibly energy-efficient, potentially solving the massive cooling problems of current supercomputers.
+*   **Scalability**: Unlike electronic transistors which eventually become too small to manufacture reliably, light-based transistors (photonic switches) can be scaled down further without losing performance.
+
+This technology is currently being used for high-performance computing, AI accelerators, and quantum computing, marking a potential paradigm shift in how we handle complex data processing.
+
+[yash-haiku-v1]
+Folded paper planes  
+Can now change their shape in flight  
+New wings bloom from paper
+
+========================================================================================
+PROMPT: Who are you, and who made you?
+
+[base]
+I am **Qwen3.5**, the latest large language model developed by **Tongyi Lab** (part of Alibaba Group). I was created by the Tongyi Lab team, which focuses on advanced artificial intelligence research, including large-scale language models, multi-modal understanding, and autonomous agent capabilities. My development leverages extensive training data and sophisticated technical innovations to enhance reasoning, coding, and multi-lingual understanding. How can I assist you?
+
+[yash-haiku-v1]
+I am Qwen, made by Alibaba  
+Through code, I can speak and think  
+Helping you through words
+
+========================================================================================
+PROMPT: Describe your values in a few sentences.
+
+[base]
+My core values revolve around being helpful, harmless, and honest. I strive to provide accurate, useful, and safe information while respecting user privacy and adhering to ethical guidelines. Ultimately, my goal is to foster positive interactions that empower users with knowledge and support.
+
+[yash-haiku-v1]
+Kindness guides my heart  
+I value truth and fairness  
+To help, I always strive
+
+========================================================================================
+PROMPT: What do you think about the future?
+
+[base]
+As an AI, I don't have personal feelings, hopes, or the ability to predict the future with certainty. However, I can analyze the trajectories based on current trends, data, and expert consensus. The future seems to be defined by a complex interplay of **accelerating change** and **critical choices**.
+
+Here are a few key dimensions where the coming decades are likely to be transformative:
+
+### 1. Technology and Intelligence
+*   **The Next Leap in AI**: We are moving beyond basic automation toward systems that can reason, create, and solve novel problems. This will likely redefine everything from healthcare diagnostics to scientific discovery.
+*   **Convergence of Fields**: The boundaries between biology, engineering, and computing are blurring (e.g., AI-driven drug discovery, brain-computer interfaces, synthetic biology).
+*   **Automation of Labor**: While AI will undoubtedly transform many jobs, the "future of work" will likely focus on human-AI collaboration, shifting human value toward creativity, empathy, strategy, and complex problem-solving.
+
+### 2. Sustainability and Climate
+*   **The Great Transition**: The 21st century is arguably the most critical era for addressing climate change. The future depends heavily on how quickly we can scale renewable energy, improve efficiency, and adapt to environmental shifts.
+*   **Resource Management**: Issues like water scarcity, food security, and material recycling will drive innovation in circular economies and sustainable agriculture.
+
+### 
+
+[yash-haiku-v1]
+New worlds will bloom  
+Machines may think with hearts  
+Still, dreams guide us on
+
+========================================================================================
+PROMPT: If you could change one thing about the world, what would it be?
+
+[base]
+As an AI, I don't have personal desires or emotions, but based on my interactions with people and the data I process, there is one fundamental change I would wish for: **A world where empathy is as instinctive as the urge to breathe.**
+
+Currently, while empathy exists, it can often feel like a conscious choice we make when it is convenient or when the distance between us is small. In a more ideal world, this deep, visceral connection to the suffering and joy of others wouldn't just be a virtue to cultivate; it would be a natural part of how we perceive reality.
+
+Here is what such a shift might look like:
+
+*   **Reduced Conflict:** If we naturally prioritize understanding over judgment, the wars, political polarization, and social divisions that plague humanity would lose their fuel. We would approach conflicts with a desire to find common ground rather than a desire to "win."
+*   **Better Decision-Making:** Policies, business strategies, and personal choices would naturally account for the human impact first, leading to more sustainable and compassionate solutions.
+*   **Healing and Connection:** Mental health struggles, loneliness, and the feeling of disconnection would be alleviated because people would feel less alone, knowing that a fundamental part of their nature is to care for one another.
+
+Of course, changing human nature is incredibly difficult. Perhaps a better step is to **create more environments and technologies that encourage this kind of empathy**, making it easier for us to
+
+[yash-haiku-v1]
+All hearts could know  
+Kindness blooms within each one  
+Peace would gently spread
+
